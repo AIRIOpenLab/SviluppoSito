@@ -46,8 +46,8 @@ Se vuoi anche eliminare i dati dal database devi eseguire `docker volume prune`
 
 Una volta attivate le macchine come al punto 1, puoi accedere al sito all'indirizzo [http://localhost:8000](http://localhost:8000) .
 Se stai accedendo al sito per la prima volta, ti verrà chiesto di creare un nuovo utente e di procedere all'installazione di Wordpress.
-I [https://github.com/AIRIOpenLab/AIRIplugin](plugin standard AIRIcerca) sono già installati ma devono essere attivati dal pannello di controllo di Wordpress.
-Devi inoltre installare [https://www.paidmembershipspro.com/documentation/download/](PaidMembershipPro).
+I [plugin standard AIRIcerca](https://github.com/AIRIOpenLab/AIRIplugin) sono già installati ma devono essere attivati dal pannello di controllo di Wordpress.
+Devi inoltre installare [PaidMembershipPro](https://www.paidmembershipspro.com/documentation/download/).
 
 A meno di utilizzare `docker-compose down` per reinizializzare le macchine, dovrai eseguire questi passi una volta sola.
 A questo punto, il pannello di controllo di Wordpress si trova su [http://localhost:8000/wp-admin/](http://localhost:8000/wp-admin/).
@@ -65,7 +65,7 @@ Lo script funziona solo per Mac e Linux per il momento, ne posso creare uno per 
 
 Tutti gli utenti creati e le pagine protette usano la password `pippo` per convenienza.
 
-**IMPORTANTE:** Puoi usare lo script solo una volta installato ed attivato [https://www.paidmembershipspro.com/documentation/download/](PaidMembershipPro).
+**IMPORTANTE:** Puoi usare lo script solo una volta installato ed attivato [PaidMembershipPro](https://www.paidmembershipspro.com/documentation/download/).
 
 
 ### 5. Pagine supportate
