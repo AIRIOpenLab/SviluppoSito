@@ -5,11 +5,11 @@ Crea un ambiente di sviluppo per i plugin del sito di AIRIcerca
 ## Prerequisiti
 
 Installa Docker, disponibile per:
-* [https://docs.docker.com/install/#server](Linux)
-* [https://docs.docker.com/docker-for-mac/](Mac)
-* [https://docs.docker.com/docker-for-windows/](Windows)
+* [Linux](https://docs.docker.com/install/#server)
+* [Mac](https://docs.docker.com/docker-for-mac/)
+* [Windows](https://docs.docker.com/docker-for-windows/)
 
-(per Linux, devi installare separatamente anche [https://docs.docker.com/compose/install/](Docker-compose).)
+(per Linux, devi installare separatamente anche [Docker-compose](https://docs.docker.com/compose/install/).
 
 ## Istruzioni
 
