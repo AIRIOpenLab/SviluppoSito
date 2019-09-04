@@ -9,7 +9,7 @@ Installa Docker, disponibile per:
 * [Mac](https://docs.docker.com/docker-for-mac/)
 * [Windows](https://docs.docker.com/docker-for-windows/)
 
-(per Linux, devi installare separatamente anche [Docker-compose](https://docs.docker.com/compose/install/).
+(per Linux, devi installare separatamente anche [Docker-compose](https://docs.docker.com/compose/install/).)
 
 ## Istruzioni
 
@@ -39,7 +39,7 @@ Puoi spegnere le macchine virtuali premendo `CTRL+c` nella console dove vedi il 
 Oppure puoi aprire una nuova console nella directory `SviluppoSito` e usare il comando `docker-compose stop`.
 Potrai riavviare in ogni momento eseguendo ancora `docker-compose up` e ritroverai tutte le modifiche che hai eseguito.
 
-Il comando `docker-compose down` cancella ogni cambiamento eseguito sulle macchine virtuale e serve se vuoi ripartire da zero.
+Il comando `docker-compose down` cancella ogni cambiamento eseguito sulle macchine virtuali e serve se vuoi ripartire da zero.
 Se vuoi anche eliminare i dati dal database devi eseguire `docker volume prune`
 
 ### 3. Primo utilizzo
@@ -79,7 +79,7 @@ Tutti gli utenti creati e le pagine protette usano la password `pippo` per conve
 
 ### 6. Varie
 
-Per controllare le tavole del database, una volta loggati sulla macchina del database, puoi eseguire il comando:
+Per controllare le tavole del database, una volta loggato sulla macchina del database, puoi eseguire il comando:
 
 ```
 mysql -uroot -p"$MYSQL_ROOT_PASSWORD" "$MYSQL_DATABASE"
