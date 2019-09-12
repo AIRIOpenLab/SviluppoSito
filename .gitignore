@@ -2,3 +2,4 @@
 .pydevproject
 .settings/
 secret-*.txt
+secret-*.csv

@@ -3,8 +3,10 @@ version: '3.3'
 secrets:
   secret-counselling-gmaps:
     file:  secret-counselling-gmaps.txt
-  secret-editing-recaptcha:
-    file:  secret-editing-recaptcha.txt
+  secret-editing-recaptcha-en:
+    file:  secret-editing-recaptcha-en.txt
+  secret-editing-editors:
+    file: secret-editing-editors.csv
   secret-soci-gmaps:
     file:  secret-soci-gmaps.txt
   secret-soci-mchimp-amici:
@@ -13,6 +15,8 @@ secrets:
     file:  secret-soci-mchimp.txt
   secret-soci-recaptcha:
     file: secret-soci-recaptcha.txt
+  secret-leaflet:
+    file: secret-leaflet.txt
 
 services:
    db:
@@ -40,11 +44,13 @@ services:
        WORDPRESS_DB_NAME: wordpress
      secrets:
         - secret-counselling-gmaps
-        - secret-editing-recaptcha
+        - secret-editing-editors
+        - secret-editing-recaptcha-en
         - secret-soci-gmaps
         - secret-soci-mchimp-amici
         - secret-soci-mchimp
         - secret-soci-recaptcha
+        - secret-leaflet
         
 volumes:
     db_data: {}
