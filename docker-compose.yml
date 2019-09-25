@@ -3,8 +3,10 @@ version: '3.3'
 secrets:
   secret-counselling-gmaps:
     file:  secret-counselling-gmaps.txt
-  secret-editing-recaptcha-en:
-    file:  secret-editing-recaptcha-en.txt
+  secret-recaptcha-secret:
+    file:  secret-recaptcha-secret.txt
+  secret-recaptcha-sitekey:
+    file:  secret-recaptcha-sitekey.txt
   secret-editing-editors:
     file: secret-editing-editors.csv
   secret-soci-gmaps:
@@ -13,8 +15,6 @@ secrets:
     file:  secret-soci-mchimp-amici.txt
   secret-soci-mchimp:
     file:  secret-soci-mchimp.txt
-  secret-soci-recaptcha:
-    file: secret-soci-recaptcha.txt
   secret-leaflet:
     file: secret-leaflet.txt
 
@@ -45,11 +45,11 @@ services:
      secrets:
         - secret-counselling-gmaps
         - secret-editing-editors
-        - secret-editing-recaptcha-en
+        - secret-recaptcha-sitekey
+        - secret-recaptcha-secret
         - secret-soci-gmaps
         - secret-soci-mchimp-amici
         - secret-soci-mchimp
-        - secret-soci-recaptcha
         - secret-leaflet
         
 volumes:
